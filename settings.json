@@ -1,0 +1,111 @@
+{
+
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    // Tailwind & CSS
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "css.validate": false,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    // Base
+    // --- Brackets
+    "editor.guides.bracketPairs": true,
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#D8DEE9",
+        "editorBracketHighlight.foreground2": "#B48EAD",
+        "editorBracketHighlight.foreground3": "#A3BE8C",
+        "editorBracketHighlight.foreground4": "#EBCB8B",
+        "editorBracketHighlight.foreground5": "#D08770",
+        "editorBracketHighlight.foreground6": "#BF616A",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#962c30"
+    },
+    // --- Italics
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+        {
+            "scope": [
+                // following will be in italic
+                // "comment",
+                "storage.type.class.js", //class keyword
+                "storage.type", // def
+                "keyword" // import, export, return…
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": [
+                // following will be excluded from italics (VSCode has some defaults for italics)
+                "comment",
+                "invalid",
+                "keyword.operator",
+                "constant.numeric.css",
+                "keyword.other.unit.px.css",
+                "constant.numeric.decimal.js",
+                "constant.numeric.json"
+            ],
+            "settings": {
+                "fontStyle": ""
+            }
+        }
+        ]
+    },
+    // SQLite
+    "workbench.editorAssociations": {
+        "*.sqlite3": "sqlite-viewer.view"
+    },
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "editor.fontFamily": "'JetBrains Mono ExtraLight', Consolas, 'Courier New', monospace",
+    // "editor.fontFamily": "Monoid, Consolas, 'Courier New', monospace",
+    // "editor.fontFamily": "'Fira Code Retina', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "phase",
+    "editor.linkedEditing": true, // <- Not sure about this
+
+    "terminal.integrated.fontFamily": "'JetBrains Mono ExtraLight'",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.defaultProfile.linux": "zsh",
+
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+
+    "workbench.startupEditor": "none",
+    "git.autofetch": true,
+    "editor.fontSize": 15,
+    "files.eol": "\n",
+    "timeline.excludeSources": ["timeline.localHistory"],
+    "window.zoomLevel": -1.2,
+    "workbench.colorTheme": "Ayu Dark Bordered"
+}
