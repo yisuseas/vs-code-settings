@@ -1,5 +1,13 @@
 {
-
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+    },
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
@@ -16,6 +24,11 @@
         "editor.tabSize": 2
     },
     "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true,
         "editor.tabSize": 2
@@ -90,6 +103,7 @@
     "editor.cursorSmoothCaretAnimation": true,
     "editor.cursorBlinking": "phase",
     "editor.linkedEditing": true, // <- Not sure about this
+    "terminal.integrated.shellIntegration.enabled": true,
 
     "terminal.integrated.fontFamily": "'JetBrains Mono ExtraLight'",
     "terminal.integrated.cursorBlinking": true,
@@ -107,5 +121,7 @@
     "files.eol": "\n",
     "timeline.excludeSources": ["timeline.localHistory"],
     "window.zoomLevel": -1.2,
-    "workbench.colorTheme": "Ayu Dark Bordered"
+    "workbench.colorTheme": "Ayu Dark Bordered",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontWeightBold": "400"
 }
